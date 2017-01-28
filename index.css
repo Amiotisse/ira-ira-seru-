@@ -1,14 +1,22 @@
-footer
+.titre
 {
-  position: absolute;
-  left: 0;
+text-align: center;
+text-decoration: none;
+font-family: calibri ;
+font-size: 50px ;
+color: #19535f
+}
+.footer
+{
+  position: static;
+  margin: auto;
   bottom: 0;
   overflow: hidden;
 
 }
 body
 {
- background-color:#d7c9aa
+ background-color:#f0f3f5
 }
 h1
 {
@@ -24,7 +32,7 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 21px ;
-    width: 250px;
+    width: 300px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
@@ -95,6 +103,8 @@ li a:hover:not(.active) {
     color: white;
 }*/
 img {
+    border-style: solid;
+    border-color: #19535f ;
     padding:middel ;
     border-radius: 8px;
 }
@@ -102,5 +112,5 @@ div
 {
   padding: 20px ;
   text-align: center;
-  
+
 }
